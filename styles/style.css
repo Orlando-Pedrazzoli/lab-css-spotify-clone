@@ -6,3 +6,127 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+body {
+  font-size: 100%;
+}
+
+.cabeçalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabeçalho-logo {
+  height: 72px;
+}
+
+.cabeçalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabeçalho-menu-item {
+  color: black;
+  font-weight: 400px;
+  font-size: 18px;
+}
+
+.image.container {
+  position: relative;
+}
+
+.banner-grande {
+  width: 100%;
+}
+
+.text-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 70px;
+  text-align: center;
+  align-items: center;
+}
+
+.paragraph-over-image {
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 100;
+  align-items: center;
+}
+
+.inline-block-center {
+  display: inline-block;
+}
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.icon-text {
+  text-align: center;
+}
+.icon {
+  width: 250px;
+  margin: 20px;
+  justify-content: space-between;
+  padding: 0px 0px 0px;
+  display: block;
+}
+.icon-image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.icon-1 {
+  background-image: url(../images/music-icon.png);
+}
+.icon-2 {
+  background-image: url(../images/high-quality-icon.png);
+}
+.icon-3 {
+  background-image: url(../images/devices-icon.png);
+}
+.icon h2,
+p {
+  align-items: center;
+  text-align: center;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(111, 167, 26);
+}
+.end {
+  width: 250px;
+  margin: 20px;
+  justify-content: space-between;
+  padding: 0px 0px 0px;
+  display: block;
+}
+.end-image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.end-1 {
+  background-image: url(../images/spotify-icon-white.png);
+}
+.end-2 {
+  background-image: url(../images/spotify-app.jpg);
+}
